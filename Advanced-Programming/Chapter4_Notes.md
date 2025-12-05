@@ -116,3 +116,157 @@
 
 一般包括三个步骤：输入原始数据、对原始数据进行计算加工、输出结果数据。
 
+
+
+选择结构程序设计
+
+
+
+单分支选择语句
+
+格式：if（表达式）语句
+
+若问真则执行，否则不执行语句。
+
+表达式可以是任何类型。语句可以是任何语句。
+
+
+
+双分支选择语句
+
+格式：if（表达式）语句1
+
+else 语句2
+
+
+
+多分支选择语句
+
+格式：
+
+switch (expression)
+
+{
+
+&nbsp;   case value1: statement; break;
+
+&nbsp;   case value2: statement; break;
+
+&nbsp;   ...
+
+&nbsp;   default: statement;
+
+}
+
+
+
+switch后面的表达式常用的是字符型和整型表达式。
+
+常量表达式的值必须互不相同。
+
+当执行到语句break后，跳出该switch语句，转而执行switch语句的下一条语句。
+
+
+
+break语句功能是中断正在执行的语句。
+
+default及其后面的语句可以省略。
+
+
+
+循环结构程序设计
+
+
+
+while语句
+
+格式：while（表达式）
+
+表达式称为循环控制条件，先判断后执行循环体。
+
+
+
+while (condition)
+
+{
+
+&nbsp;   statements;
+
+}
+
+
+
+do-while语句
+
+格式：do 语句
+
+while（表达式）
+
+
+
+do
+
+{
+
+&nbsp;   statements;
+
+} while (condition);
+
+
+
+for语句
+
+主要用于实现次数型循环结构
+
+格式：for（表达式1；表达式2；表达式3）
+
+表达式1可以是任何类型，其后面有一个分号。
+
+表达式2可以是任何类型，其后面也有一个分号。
+
+表达式3可以是任何类型，其后面**没有**分号！
+
+
+
+for (init; condition; increment)
+
+{
+
+&nbsp;   statements;
+
+}
+
+
+
+break语句和continue语句
+
+break语句
+
+格式：break；
+
+功能：强制结束当前的循环。
+
+
+
+continue语句
+
+格式：continue
+
+功能：跳过continue之后的语句，重新判断循环控制条件，决定是否继续执行循环。
+
+
+
+循环可以嵌套！ 循环结构的程序设计示例（p135开始）
+
+
+
+
+
+
+
+
+
+
+
+
+
