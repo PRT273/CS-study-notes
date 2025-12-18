@@ -1,36 +1,88 @@
-本文件为课程学习笔记，内容基于自考教材 高级语言程序设计 整理。
+\# Advanced Programming (C Language)
 
 
 
-高级语言程序设计 · 学习记录（个人仓库）
+This repository contains my study notes and learning logs for Advanced Programming (C language), based on the Chinese self-study exam textbook  《高级语言程序设计》.
 
 
 
-这是我从零开始学习计算机和编程的记录。
+The purpose of this repository is to "document my learning process",
 
-会把每一章的笔记、一些练习代码、小项目都放在这里。
-
-
-
-目前进度2025/11：
+not just the final results.
 
 
 
-第 1 章：概述
-
-学了四分之三
+\## Contents:
 
 
 
-希望两年后，这个仓库能看起来很完整，能反映我整个学习过程。
+\- Chapter1\_Notes.md – Introduction to programming \& C language basics
+
+\- Chapter2\_Notes.md – Data types, constants, variables
+
+\- Chapter3\_Notes.md – Operators and expressions
+
+\- Chapter4\_Notes.md – Control structures
+
+\- Chapter5\_Notes.md – Arrays and strings
+
+\- Chapter6\_Notes.md – Functions and recursion
+
+\- Chapter7\_Notes.md – Pointers
+
+\- Chapter8\_Notes.md – Structures and custom data types
+
+\- Chapter9\_Notes.md – Preprocessing
+
+\- Chapter10\_Notes.md – File operations
 
 
 
-目标（长期）：
+\## Learning logs —— Daily learning reflections and progress logs
 
-继续学习数学、算法、编程
 
-写 3–4 个能展示能力的项目
 
-用这个仓库作为未来申请硕士的作品集之一
+\## Learning Notes:
+
+
+
+Notes are written mainly in Chinese, focusing on:
+
+Understanding core concepts
+
+Common mistakes
+
+Exam-oriented key points
+
+Some explanations are informal and personal, reflecting real learning struggles.
+
+
+
+\## Learning Progress:
+
+
+
+Started: Nov 2025
+
+Current status: Completed all chapters once
+
+Next steps:
+
+Strengthen pointer \& structure exercises
+
+Practice exam-style problems
+
+Improve code writing fluency
+
+
+
+\## Long-term Goal:
+
+
+
+Build solid programming fundamentals
+
+Prepare for future CS-related studies (Bachelor → Master)
+
+Use this repository as part of my long-term learning portfolio
 
