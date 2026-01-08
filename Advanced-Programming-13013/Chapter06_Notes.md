@@ -138,7 +138,7 @@ static 关键字使变量：
 
 常见错误理解：
 
-&nbsp;“所有函数都可以使用全局变量”**错**
+ “所有函数都可以使用全局变量”**错**
 
 限制：只有在它之后出现的函数才能使用（作用域规则） **对**
 
@@ -214,7 +214,7 @@ void f2(void)
 
 {
 
-&nbsp;   printf("This is f2.\\n");
+    printf("This is f2.\\n");
 
 }
 
@@ -224,11 +224,11 @@ void f1(void)
 
 {
 
-&nbsp;   printf("Enter f1.\\n");
+    printf("Enter f1.\\n");
 
-&nbsp;   f2();                      // 在 f1 中调用 f2
+    f2();                      // 在 f1 中调用 f2
 
-&nbsp;   printf("Leave f1.\\n");
+    printf("Leave f1.\\n");
 
 }
 
@@ -238,13 +238,13 @@ int main(void)
 
 {
 
-&nbsp;   printf("In main.\\n");
+    printf("In main.\\n");
 
-&nbsp;   f1();                      // 在 main 中调用 f1
+    f1();                      // 在 main 中调用 f1
 
-&nbsp;   printf("Back to main.\\n");
+    printf("Back to main.\\n");
 
-&nbsp;   return 0;
+    return 0;
 
 }
 
@@ -304,33 +304,17 @@ long fac(int n)
 
 {
 
-&nbsp;   if (n == 0 || n == 1)      // 终止条件：n = 0 或 1 时不再递归
+    if (n == 0 || n == 1)      // 终止条件：n = 0 或 1 时不再递归
 
-&nbsp;       return 1;
+        return 1;
 
-&nbsp;   else                       // 一般情况：n! = n \* (n-1)!
+    else                       // 一般情况：n! = n \* (n-1)!
 
-&nbsp;       return n \* fac(n - 1);
+        return n \* fac(n - 1);
 
 }
 
 
 
 6.6 常用库函数 （p205~p210） 6.7函数的设计实例（p210~p213）
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
